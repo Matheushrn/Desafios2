@@ -30,7 +30,7 @@ public class conversormoedas {
 				System.out.println("Digite a quantidade em reais que deseja converter");
 				reais = sc.nextDouble();
 				double taxadolar = reais * dolar;
-				System.out.printf("O valor fica em %.2f dólares\n", taxadolar);
+				System.out.printf("O valor fica em %.2f Dólares\n", taxadolar);
 				break;
 			
 			
@@ -50,11 +50,11 @@ public class conversormoedas {
 				System.out.println("Digite a quantidade em reais que deseja converter");
 				reais = sc.nextDouble();
 				double taxalibra = reais * libra;
-				System.out.printf("O valor fica em £%.2f Euros\n", taxalibra);
+				System.out.printf("O valor fica em £%.2f Libras\n", taxalibra);
 				break;
 				
 			case 0: 
-				System.out.println("Sair");
+				System.out.println("Obrigado por usar o conversor");
 				break;
 				
 			default:
