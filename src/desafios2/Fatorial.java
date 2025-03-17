@@ -8,7 +8,7 @@ public class Fatorial {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Fatorial de um número Positivo : ");
+        System.out.print("Fatorial de um número positivo : ");
 
         int Numero = sc.nextInt();
 
